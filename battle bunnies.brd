@@ -8410,6 +8410,8 @@ Go, play with others and see what comes of it!
 <text x="112.0775" y="47.9425" size="0.8128" layer="22" rot="MR270">PWM12</text>
 <text x="19.05" y="33.02" size="1.778" layer="21" rot="SR270">Battle
    Bunny!</text>
+<text x="2.54" y="51.1175" size="0.508" layer="22" rot="MR270">Off</text>
+<text x="2.54" y="55.88" size="1.27" layer="22" rot="MR270">On</text>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors">
