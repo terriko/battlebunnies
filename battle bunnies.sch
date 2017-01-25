@@ -6978,11 +6978,6 @@ https://docs.micropython.org/en/latest/esp8266/esp8266/quickref.html#i2c-bus</te
 <label x="154.94" y="152.4" size="1.778" layer="95"/>
 <pinref part="JP2" gate="A" pin="9"/>
 </segment>
-<segment>
-<pinref part="S3" gate="G$1" pin="2"/>
-<wire x1="172.72" y1="76.2" x2="190.5" y2="76.2" width="0.1524" layer="91"/>
-<label x="177.8" y="76.2" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="GPIO15" class="0">
 <segment>
@@ -6999,6 +6994,11 @@ https://docs.micropython.org/en/latest/esp8266/esp8266/quickref.html#i2c-bus</te
 <wire x1="154.94" y1="157.48" x2="177.8" y2="157.48" width="0.1524" layer="91"/>
 <label x="154.94" y="157.48" size="1.778" layer="95"/>
 <pinref part="JP2" gate="A" pin="7"/>
+</segment>
+<segment>
+<pinref part="S3" gate="G$1" pin="2"/>
+<wire x1="172.72" y1="76.2" x2="190.5" y2="76.2" width="0.1524" layer="91"/>
+<label x="177.8" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO0" class="0">
