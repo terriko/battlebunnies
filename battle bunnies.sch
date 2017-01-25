@@ -6143,11 +6143,11 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 </classes>
 <parts>
 <part name="FRAME1" library="frames" deviceset="TABL_L" device=""/>
-<part name="R16" library="SparkFun-Resistors" deviceset="200OHM1/10W1%(0603)" device="" value="200"/>
+<part name="R16" library="SparkFun-Resistors" deviceset="200OHM1/10W1%(0603)" device="" value="200Ohm (DNI)"/>
 <part name="S1" library="SparkFun-Electromechanical" deviceset="SWITCH-SPDT" device="-SMD-A">
 <attribute name="PROD_ID" value="SWCH-10651"/>
 </part>
-<part name="D4" library="SparkFun-LED" deviceset="LED-RED" device="0603" value="RED"/>
+<part name="D4" library="SparkFun-LED" deviceset="LED-RED" device="0603" value="RED (DNI)"/>
 <part name="R1" library="SparkFun-Resistors" deviceset="1KOHM-1/10W-1%(0603)" device="" value="1K"/>
 <part name="R15" library="SparkFun-Resistors" deviceset="1KOHM-1/10W-1%(0603)" device="" value="1K"/>
 <part name="D2" library="SparkFun-LED" deviceset="LED-YELLOW" device="0603" value="Yellow"/>
