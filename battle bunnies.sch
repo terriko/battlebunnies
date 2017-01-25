@@ -6840,6 +6840,8 @@ https://docs.micropython.org/en/latest/esp8266/esp8266/quickref.html#i2c-bus</te
 <junction x="60.96" y="241.3"/>
 <pinref part="U2" gate="G$1" pin="OUT"/>
 <pinref part="U$10" gate="G$1" pin="3.3V"/>
+<pinref part="D4" gate="G$1" pin="A"/>
+<wire x1="73.66" y1="241.3" x2="68.58" y2="241.3" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="REGIN"/>
@@ -7265,12 +7267,6 @@ https://docs.micropython.org/en/latest/esp8266/esp8266/quickref.html#i2c-bus</te
 <pinref part="U3" gate="G$1" pin="VBAT"/>
 <pinref part="SJ1" gate="G$1" pin="1"/>
 <wire x1="66.04" y1="124.46" x2="60.96" y2="124.46" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$11" class="0">
-<segment>
-<wire x1="68.58" y1="241.3" x2="73.66" y2="241.3" width="0.1524" layer="91"/>
-<pinref part="D4" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="PWM0" class="0">
