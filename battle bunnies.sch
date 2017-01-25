@@ -6282,18 +6282,18 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 (What's Used,
 What's Available)
 ------------------------
-GPIO0             - LED (schematic)
-GPIO02/           - 
-GPIO4/SDA/PWM     -
-GPIO5/SCL/IR Rx      - IR Rx
-GPIO9             - PCA9865
-GPIO10           - PCA9865
+GPIO0                           - LED (schematic)
+GPIO02/                        - Strap
+GPIO4/SDA/PWM            - PCA9865
+GPIO5/SCL/IR Rx             - IR Rx
+GPIO9                            - 
+GPIO10                          - 
 GPIO12/MISO/PWM/IR Tx - IR Tx
-GPIO13/MOSI - 
-GPIO14/SCL/PWM   - 
-GPIO15/CS/PWM     - Button
-GPIO16           - Button
-ADC                -
+GPIO13/MOSI                  - Button
+GPIO14/SCL/PWM            - PCA9865
+GPIO15/CS/PWM              - 
+GPIO16 (No Interrupts)     - Button
+ADC                                - Should get routed back to VBAT
 
 Total: 17 GPIOs, 2 taken for UART (15). 
 I count 14 pinned now</text>
