@@ -8412,6 +8412,8 @@ Go, play with others and see what comes of it!
    Bunny!</text>
 <text x="2.54" y="51.1175" size="0.508" layer="22" rot="MR270">Off</text>
 <text x="2.54" y="55.88" size="1.27" layer="22" rot="MR270">On</text>
+<text x="32.0675" y="65.405" size="1.016" layer="22" rot="MR270">Use Only Lithium Ion 3.7V 14500
+Rechargeable Batteries</text>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors">
