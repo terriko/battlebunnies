@@ -6291,8 +6291,8 @@ GPIO10                          -
 GPIO12/MISO/PWM/IR Tx - IR Tx
 GPIO13/MOSI                  - Button
 GPIO14/SCL/PWM            - PCA9865
-GPIO15/CS/PWM              - 
-GPIO16 (No Interrupts)     - Button
+GPIO15/CS/PWM              - Button
+GPIO16 (No Interrupts)     - Don't use this for anything
 ADC                                - Should get routed back to VBAT
 
 Total: 17 GPIOs, 2 taken for UART (15). 
