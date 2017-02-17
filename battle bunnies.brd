@@ -9731,7 +9731,7 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="unknown" x="102.87" y="57.4675" size="0.17018125" layer="28" rot="MR90" display="off"/>
 <attribute name="MF" value="" x="102.87" y="57.4675" size="0.17018125" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="RN3" library="resistor-dil" package="EXB2HV" value="10K" x="89.8525" y="69.215" rot="MR0">
+<element name="RN3" library="resistor-dil" package="EXB2HV" value="0" x="89.8525" y="69.215" rot="MR0">
 <attribute name="OC_NEWARK" value="unknown" x="89.8525" y="69.215" size="0.17018125" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="" x="89.8525" y="69.215" size="0.17018125" layer="28" rot="MR0" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="89.8525" y="69.215" size="0.17018125" layer="28" rot="MR0" display="off"/>
@@ -10098,10 +10098,8 @@ design rules under a new name.</description>
 <contactref element="JP4" pad="10"/>
 <wire x1="43.815" y1="65.0875" x2="34.2275" y2="65.0875" width="0.1524" layer="1"/>
 <wire x1="34.2275" y1="65.0875" x2="34.0925" y2="64.9525" width="0.1524" layer="1"/>
-<wire x1="50.64125" y1="63.65875" x2="76.5175" y2="63.65875" width="0.1524" layer="1"/>
-<via x="76.67625" y="63.8175" extent="1-16" drill="0.3048" diameter="0.3048"/>
-<wire x1="76.67625" y1="63.8175" x2="76.653125" y2="74.056875" width="0.1524" layer="16"/>
 <via x="88.5825" y="73.9775" extent="1-16" drill="0.3048" diameter="0.3048"/>
+<wire x1="76.674096875" y1="64.771071875" x2="76.653125" y2="74.056875" width="0.1524" layer="16"/>
 <wire x1="88.5825" y1="73.9775" x2="88.48" y2="74.08" width="0.1524" layer="16"/>
 <wire x1="88.48" y1="74.08" x2="76.653125" y2="74.056875" width="0.1524" layer="16"/>
 <wire x1="88.5825" y1="73.9775" x2="107.6325" y2="73.9775" width="0.1524" layer="1"/>
@@ -10115,9 +10113,9 @@ design rules under a new name.</description>
 <wire x1="121.76125" y1="80.16875" x2="122.8725" y2="81.28" width="0.1524" layer="16"/>
 <wire x1="122.8725" y1="81.28" x2="122.8725" y2="87.3125" width="0.1524" layer="16"/>
 <wire x1="43.815" y1="65.0875" x2="44.92625" y2="63.97625" width="0.1524" layer="1"/>
-<wire x1="44.92625" y1="63.97625" x2="50.32375" y2="63.97625" width="0.1524" layer="1"/>
-<wire x1="50.32375" y1="63.97625" x2="50.64125" y2="63.65875" width="0.1524" layer="1"/>
-<wire x1="76.67625" y1="63.8175" x2="76.5175" y2="63.65875" width="0.1524" layer="1"/>
+<wire x1="44.92625" y1="63.97625" x2="75.879275" y2="63.97625" width="0.1524" layer="1"/>
+<wire x1="75.879275" y1="63.97625" x2="76.674096875" y2="64.771071875" width="0.1524" layer="1"/>
+<via x="76.674096875" y="64.771071875" extent="1-16" drill="0.3048"/>
 </signal>
 <signal name="GPIO16">
 <contactref element="X2" pad="4"/>
