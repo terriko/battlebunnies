@@ -6250,7 +6250,7 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="RN1" library="resistor-dil" deviceset="8R-N" device="EXB2HV" value="220"/>
 <part name="RN2" library="resistor-dil" deviceset="8R-N" device="EXB2HV" value="220"/>
-<part name="RN3" library="resistor-dil" deviceset="8R-N" device="EXB2HV" value="10K"/>
+<part name="RN3" library="resistor-dil" deviceset="8R-N" device="EXB2HV" value="0"/>
 </parts>
 <sheets>
 <sheet>
@@ -6291,8 +6291,8 @@ GPIO10                          -
 GPIO12/MISO/PWM/IR Tx - IR Tx
 GPIO13/MOSI                  - Button
 GPIO14/SCL/PWM            - PCA9865
-GPIO15/CS/PWM              - 
-GPIO16 (No Interrupts)     - Button
+GPIO15/CS/PWM              - Button
+GPIO16 (No Interrupts)     - Don't use this for anything
 ADC                                - Should get routed back to VBAT
 
 Total: 17 GPIOs, 2 taken for UART (15). 
